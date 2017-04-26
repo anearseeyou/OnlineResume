@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Barry's Resume</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="st-container">
+        <input type="radio" name="radio-set" checked="checked" id="st-control-1"/>
+        <a href="#st-panel-1">个人主页</a>
+
+        <input type="radio" name="radio-set" id="st-control-2"/>
+        <a href="#st-panel-4">擅长技术</a>
+
+        <input type="radio" name="radio-set" id="st-control-3"/>
+        <a href="#st-panel-3">工作经历</a>
+
+        <input type="radio" name="radio-set" id="st-control-4"/>
+        <a href="#st-panel-2">基本信息</a>
+
+        <input type="radio" name="radio-set" id="st-control-5"/>
+        <a href="#st-panel-5">了解更多</a>
+
+        <div class="st-scroll">
+            <!-- 个人简介-->
+            <div class="st-panel" id="st-panel-1">
+                <div class="st-deco" data-icon="H"></div>
+                <a href="javascript:;" class="portrait">
+                    <img src="images/portrait.jpg" alt="HTML5前端工程师">
+                </a>
+                <h2 class="title">郑炳懿</h2>
+                <p>维而不坚的英语水平 · 朴实无华的编译能力 · 独具魅力的高尚人格</p>
+                <p class="content">HTML5前端工程师 & 三年开发经验</p>
+                <p class="charm">一个会跳舞的程序猿 & Free Style.</p>
+            </div>
+
+            <!-- 擅长技术 -->
+            <div class="st-panel st-color" id="st-panel-2">
+                <div class="st-deco" data-icon="x"></div>
+                <h2 class="major">擅长技术</h2>
+                <div class="technology">
+                    <ul>
+                        <li>
+                            <span>HTML</span>
+                            <span>HTML5</span>
+                        </li>
+                        <li>
+                            <span>CSS</span>
+                            <span>CSS3</span>
+                            <span>Animate.css</span>
+                        </li>
+                        <li>
+                            <span>JavaScript</span>
+                            <span class="so-good">jQuery</span>
+                            <span class="so-good">Bootstrap</span>
+                            <span class="so-good">Ajax</span>
+                            <span class="soso">PHP</span>
+                            <span class="soso">Three.js</span>
+                        </li>
+                        <li>
+                            <span class="so-good">WoW</span>
+                            <span class="so-good">ScrollReveal</span>
+                            <span class="so-good">Zepto</span>
+                            <span class="so-good">Swiper</span>
+                            <span class="soso">Canvas</span>
+                        </li>
+                        <li>
+                            <span class="so-good">Vue</span>
+                            <span class="so-good">Angular</span>
+                            <span class="soso">Node</span>
+                            <span class="soso">React Native</span>
+                        </li>
+                        <li>
+                            <span>PhotoShop</span>
+                            <span>Github</span>
+                            <span>Gulp</span>
+                            <span>Webpack</span>
+                            <span>Fireworks</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 工作经历 -->
+            <div class="st-panel" id="st-panel-3">
+                <div class="st-deco" data-icon="B"></div>
+                <h2 class="job">工作经历</h2>
+                <div class="tab-job">
+                    <div class="job-head">
+                        <ul>
+                            <li class="current">
+                                <strong>2012年</strong>
+                            </li>
+                            <li>
+                                <strong>2013年</strong>
+                            </li>
+                            <li>
+                                <strong>2014年</strong>
+                            </li>
+                            <li>
+                                <strong>2015年</strong>
+                            </li>
+                            <li>
+                                <strong>2016年</strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="job-content">
+                        <ul>
+                            <li class="content-list show">
+                                在校期间，与朋友一起弄了一个计算机动漫小组，应用软件主要有3DMax，Maya，犀牛，
+                                ZB，CAD，Photoshop等软件，学校举办晚会的时候做一些特效放映在大屏幕上。 后来快
+                                毕业的时候，大家说我们要吃饭，我们要工作，然后团队就在瞬间瓦解掉了！
+                            </li>
+                            <li class="content-list">
+                                13年毕业，投身于亲戚开的一家创业互联网公司，担任前端的基本工作。 由于是在亲戚公
+                                司，所以相对来说没有那么大的压力，时间富裕的时候就自己仿一些静态页面来提升自己的
+                                布局能力。
+                            </li>
+                            <li class="content-list">
+                                14年，随着京东和阿里巴巴的上市，中国的互联网进入真正的热潮。 于我来说，仿佛看到了
+                                曙光，坚决离开亲戚的公司，结束了比较安逸的一段工作，去探索新技术，寻求新方向。<br>
+                                <span>项目分享：</span>
+                                <a href="https://github.com/anearseeyou/Package-animation">Package</a>
+                                <a href="http://www.keeponcode.com/WaterFall/">WaterFall</a>
+                                <div class="share-content">
+                                    <span>技术点：</span>自己封装联动动画功能。通过jQuery原理封装一些常用功能，里面包括入口函数封
+                                    装、函数和DOM操作、样式和事件处理，Ajax请求数据封装功能，只需要传入参数即可，
+                                    cookie缓冲记录和保存时长功能。</div>
+                            </li>
+                            <li class="content-list">
+                                在编程的路上，迷茫、徘徊，不知去向的时候，突然收到好哥们晋升的消息，在他的推荐之
+                                下，去到他们公司，一起协作开发。平时通过国外网站、看书、参加互联网大会等学习手
+                                段，来提升自己的编程水平和编码规范。<br>
+                                <span>项目分享：</span>
+                                <a href="http://www.keeponcode.com/Memorandum/">
+                                    Memorandum
+                                </a>
+                                <a href="http://www.keeponcode.com/Imitate-Micro-gold/#">
+                                    Micro-gold
+                                </a>
+                                <div class="share-content">
+                                    <span>技术点：</span>
+                                    Micro-gold：这是一个用bootstrap做的响应式网站，可以在移动端和PC端运行。
+                                    Memorandum：这是用jQuery结合jQuery-UI实现的一款简易备忘录，具备增删改查功能！
+                                </div>
+                            </li>
+                            <li class="content-list">
+                                16年年底，在团队的共同协作下，项目众教APP终于正式上线。看着项目就像自己的孩子一
+                                样一步步成长，心里有说不出来的喜悦。虽然为了这个项目通宵达旦了很多个夜晚！<br>
+
+                                <a class="pro" href="http://www.chinazjapp.com"
+                                   target="_blank">PC端地址：www.chinazjapp.com</a><br>
+                                手机应用商店搜索：<span class="app">众教APP</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 教育背景 -->
+            <div class="st-panel st-color" id="st-panel-4">
+                <div class="st-deco" data-icon="2"></div>
+                <h2>基本信息</h2>
+                <p class="education">
+                    <span>天津国土资源大学</span><br>
+                    <span class="grad">性别：男  &nbsp;&nbsp;年龄：27岁</span><br>
+                    <span class="grad">2013年6月毕业</span><br>
+                    <span class="grad">手机：15202260782</span><br>
+                    <span class="grad">邮箱：anearseeyou@163.com</span><br>
+                    <span class="info">人工智能是未来发展趋势，对于一个特别喜欢科技的我，
+                        想必一定是一件锦上添花的事。</span>
+                </p>
+            </div>
+
+            <!-- 了解更多 -->
+            <div class="st-panel" id="st-panel-5">
+                <div class="st-deco" data-icon="Ç"></div>
+                <h2>了解更多</h2>
+                <div class="more">
+                    <h1>
+                        <a href="" target="_blank" title="Follow me to Home">个人主页</a> |
+                        <a href="" target="_blank" title="Follow me to Blog">个人博客</a>
+                    </h1>
+                    <p class="email">
+                        Email: <a href="javascript:;" target="_blank">anearseeyou@163.com</a>
+                    </p>
+                    <div class="about">
+                        <ul>
+                            <li>
+                                <a href="https://twitter.com/anearseeyou"
+                                   title="Follow me to Twitter"
+                                   target="_blank">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/u/0/"
+                                   title="Follow me to Google"
+                                   target="_blank">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/anearseeyou"
+                                   title="Follow me to Github"
+                                   target="_blank">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://stackoverflow.com/users/7877456/anearseeyou"
+                                   title="Follow me to Stack Overflow"
+                                   target="_blank">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.douban.com/people/160404288/"
+                                   title="Follow me to Douban"
+                                   target="_blank">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://weibo.com/u/2072124683/home?wvr=5"
+                                   title="Follow me to Douban"
+                                   target="_blank">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script>
+    $(function () {
+        $('.job-head li').mouseenter(function () {
+            $(this).addClass('current').siblings().removeClass('current');
+            var i = $(this).index();
+            $('.content-list').eq(i).addClass('show').siblings().removeClass('show');
+        });
+    });
+</script>
+</html>
